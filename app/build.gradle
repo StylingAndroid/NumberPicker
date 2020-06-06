@@ -35,6 +35,9 @@ dependencies {
     implementation Libraries.material
     implementation Libraries.ktxCore
     implementation Libraries.constraintLayout
+    androidTestImplementation AndroidTestLibraries.expressoCore
+    androidTestImplementation AndroidTestLibraries.androidxJunit
+    androidTestImplementation AndroidTestLibraries.androidxRules
 }
 
 detekt {

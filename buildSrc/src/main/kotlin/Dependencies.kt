@@ -34,3 +34,13 @@ object Libraries {
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
     const val material = "com.google.android.material:material:${Versions.material}"
 }
+
+object AndroidTestLibraries {
+    private object Versions {
+        const val espresso = "3.1.0"
+        const val androidxTest = "1.1.1"
+    }
+    const val expressoCore = "androidx.test.espresso:espresso-core:${Versions.espresso}"
+    const val androidxJunit = "androidx.test.ext:junit:${Versions.androidxTest}"
+    const val androidxRules = "androidx.test:rules:${Versions.androidxTest}"
+}
